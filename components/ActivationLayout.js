@@ -5,7 +5,7 @@ import { mediaQuery } from '../utils/style';
 const layoutStyle = {
   padding: 20,
   //border: '1px solid #DDD',
-  height: 165,
+  height: 100,
   backgroundColor: '#FFF',
 };
 

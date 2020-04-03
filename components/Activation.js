@@ -23,9 +23,6 @@ const Container = {
 
 const Activation = props => (
   <div id="activation">
-    <br></br>
-    <h2 style={h2Style}>Activation</h2>
-    <h6 style={h6Style}>Putting all this knowledge into action, with industry leading results.</h6>
     
     
   </div>

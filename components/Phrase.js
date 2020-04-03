@@ -13,9 +13,10 @@ const h6Style = {
 
 const Phrase = props => (
   <div id="mission">
-    <h4 style={h4Style}>With our help</h4>
-    <h2 style={h2Style}>You’ll gain unparalleled insight into your customer base,</h2>
-    <h6 style={h6Style}>an edge over your competitors, and the ability to reach your customers like never before.</h6>
+    <br></br>
+    <br></br>
+    <h2 style={h2Style}>What the market needs is all in the data</h2>
+    
   </div>
 );
 

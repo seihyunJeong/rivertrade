@@ -6,7 +6,7 @@ const layoutStyle = {
   //marginLeft: 400,
   //marginRight: 400,
   //padding: 20,
-  height: '160px',
+  height: '90px',
   //border: '1px solid #DDD',
   backgroundColor: '#4a4a4a',
 

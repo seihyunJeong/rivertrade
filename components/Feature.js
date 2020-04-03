@@ -2,13 +2,13 @@ import styled from 'styled-components';
 import { mediaQuery } from '../utils/style';
 
 const Box = styled.div`
-  background:#14a3bb;
-  height: 300px;
+  background:#f2f2f2;
+  height: 280px;
   width: 200px;
-  margin-left: 62px;
+  margin-left: 140px;
   ${mediaQuery.lessThan('medium')`
-    background:#14a3bb;
-    height: 300px;
+    background:#f2f2f2;
+    height: 280px;
     width: 200px;
     margin-left: 140px;
   `}
@@ -26,11 +26,11 @@ const liStyle = {
 };
 const h3Style = {
   textAlign: 'center',
-  color: '#FFF',
+  color: '#4a4a4a',
 };
 const h5Style = {
   textAlign: 'center',
-  color: '#FFF',
+  color: '#4a4a4a',
 };
 
 const layoutStyle = {
@@ -49,46 +49,27 @@ const Feature = props => (
         <Box>
           <br></br>
           <h3 style={h3Style}>Market Intelligence</h3>
-          <br></br>
-          <h5 style={h5Style}>Oh, say can you see by the dawn’s early light
-What so proudly we hailed at the twilight’s last gleaming?
-Whose broad stripes and bright stars thru the perilous fight,
-O’er the ramparts we watched were so gallantly streaming?</h5>
+          
+          <h5 style={h5Style}>We analyze extensive market data and define the best products and to fulfill the specific market demands</h5>
         </Box>
       </li>
       <li style={liStyle}>
         <Box>
           <br></br>
-          <h3 style={h3Style}>Seller Intelligence</h3>
-          <br></br>
-          <h5 style={h5Style}>And the rocket’s red glare, the bombs bursting in air,
-Gave proof through the night that our flag was still there.
-Oh, say does that star-spangled banner yet wave
-O’er the land of the free and the home of the brave?</h5>
+          <h3 style={h3Style}>Sourcing Capability</h3>
+          
+          <h5 style={h5Style}>We screen and select that best manufacturing partners in order to deliver the highest quality products to each market</h5>
         </Box>
       </li>
       <li style={liStyle}>
         <Box>
         <br></br>
-          <h3 style={h3Style}>FBA Intelligence</h3>
-          <br></br>
-          <h5 style={h5Style}>On the shore, dimly seen through the mists of the deep,
-Where the foe’s haughty host in dread silence reposes,
-What is that which the breeze, o’er the towering steep,
-As it fitfully blows, half conceals, half discloses?</h5>
+          <h3 style={h3Style}>Efficient Operation</h3>
+          
+          <h5 style={h5Style}>Based on the deep understanding of e-commerce ecosystem, we drive the sales through excellent marketing performances and spot-on customer targeting</h5>
         </Box>
       </li>
-      <li style={liStyle}>
-        <Box>
-        <br></br>
-          <h3 style={h3Style}>Cross Board Intelligence</h3>
-          <br></br>
-          <h5 style={h5Style}>Now it catches the gleam of the morning’s first beam,
-In full glory reflected now shines in the stream:
-‘Tis the star-spangled banner! Oh long may it wave
-O’er the land of the free and the home of the brave!</h5>
-        </Box>
-      </li>
+      
     </ul>
   </div>
 );

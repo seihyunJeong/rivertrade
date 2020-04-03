@@ -3,10 +3,10 @@ import styled from 'styled-components';
 import { mediaQuery } from '../utils/style';
 
 const Contents = styled.div`
-  height: 350px;
+  height: 300px;
   background-color: #f2f2f2;
   ${mediaQuery.lessThan('medium')`
-    height: 1300px;
+    height: 900px;
     background-color: #f2f2f2;
   `}
 `;

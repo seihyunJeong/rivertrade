@@ -3,7 +3,7 @@ const layoutStyle = {
   //border: '1px solid #DDD',
   height: '100%',
   maxWidth: '1200px',
-  margin: 'auto',
+  paddingTop: '1px',
   marginLeft: '20px',
   
 };
@@ -11,16 +11,20 @@ const whiteStyle = {
   color: '#FFF',
 }
 
+const whiteStyle1 = {
+  color: '#FFF',
+}
 const Footer = () => (
   <div>
     <div style={layoutStyle}>
-      <br></br>
+      
     
-      <h4 style={whiteStyle}>Contact us: contact@rivertrade.com</h4>
+      <h5 style={whiteStyle}>Contact: rivertrade.co@gmail.com</h5>
       
     </div>
-    <br></br>
-    <center><h5 style={whiteStyle}>© 2020, River Trade, Inc.</h5></center>
+    <center><h5 style={whiteStyle1}>© 2020, RiverTrade, Inc.</h5></center>  
+    
+    
   </div>
 );
 
